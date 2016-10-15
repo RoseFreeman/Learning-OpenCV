@@ -1,3 +1,5 @@
+试一下git蛤
+
 1：下载、解压OpenCV。
 2：配置环境变量，系统变量PATH中添加： opencv\build\x64\vc12\bin、opencv\build\x86\vc12\bin等。
 3：新建一个空的c++工程，打开视图->其他窗口->属性管理器，找到debug下的Microsoft.Cpp.Win32.user，双击后在通用属性\VC++目录\包含目录中添加：
