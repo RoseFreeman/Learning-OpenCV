@@ -1,4 +1,12 @@
 试一下git蛤
+一些常用命令：
+将当前目录初始化为git可管理的仓库：git init
+将当前目录(子目录里的不行)下的文件添加到本地仓库：git add readme.txt
+将文件提交到仓库:git commit -m "something"
+查看当前git状态：git status
+
+添加当前目录到远程repositories：git remote add origin https://github.com/RoseFreeman/Learning-OpenCV.git
+把当前目录push进repository：git push origin master
 
 1：下载、解压OpenCV。
 2：配置环境变量，系统变量PATH中添加： opencv\build\x64\vc12\bin、opencv\build\x86\vc12\bin等。
